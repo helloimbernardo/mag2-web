@@ -2,12 +2,110 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Mag 2</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="min-h-screen grid place-items-center bg-gray-100 dark:bg-gray-500">
+      <div class="w-full sm:w-3/4 2xl:w-1/2 mx-auto shadow-2xl">
+        <div
+          class="
+            w-full
+            shadow-2xl
+            subpixel-antialiased
+            rounded
+            h-64
+            bg-black
+            border-black
+            mx-auto
+          "
+        >
+          <div
+            class="
+              flex
+              items-center
+              h-6
+              rounded-t
+              bg-white
+              dark:bg-gray-700
+              border-b border-gray-500
+              text-center text-black dark:text-white
+            "
+          >
+            <div
+              class="
+                flex
+                ml-2
+                items-center
+                text-center
+                border-red-900
+                bg-red-500
+                shadow-inner
+                rounded-full
+                w-3
+                h-3
+              "
+            ></div>
+            <div
+              class="
+                ml-2
+                border-yellow-900
+                bg-yellow-500
+                shadow-inner
+                rounded-full
+                w-3
+                h-3
+              "
+            ></div>
+            <div
+              class="
+                ml-2
+                border-green-900
+                bg-green-500
+                shadow-inner
+                rounded-full
+                w-3
+                h-3
+              "
+            ></div>
+            <div class="mx-auto pr-16">
+              <p class="text-center text-sm">Terminal</p>
+            </div>
+          </div>
+          <div
+            class="pl-1 pt-1 h-auto text-green-200 font-mono text-xs bg-black"
+          >
+            <p class="pb-1">
+              <span class="text-green-400 font-bold">admin@mag2</span
+              ><span class="text-gray-300">:~$ init</span>
+            </p>
+            <br />
+            <p class="pb-1 font-extrabold text-lg text-blue-400">MAG 2</p>
+            <p class="pb-1">
+              IP: <span class="text-gray-100 font-bold">magtwo.ml</span>
+            </p>
+            <p class="pb-1">
+              <a href="">
+                <span class="underline">Adicionar Server</span> (Mobile)</a
+              >
+            </p>
+            <p class="pb-1 underline"><a href="">Discord</a></p>
+            <br />
+            <p class="pb-1">
+              <span class="text-green-400 font-bold">admin@mag2</span>
+              <span class="text-gray-300">:~$</span>
+              <span
+                class="text-gray-300 focus:outline-none"
+                contenteditable="true"
+                spellcheck="false"
+                >exit</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script type="module" src="/main.js"></script>
   </body>
 </html>

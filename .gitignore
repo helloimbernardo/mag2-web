@@ -1,3 +1,17 @@
+# ------------------------------------------------------------------------------
+#                                GITIGNORE
+# ------------------------------------------------------------------------------
+
+# Build Files
+dist
+
+
+
+
+# ------------------------------------------------------------------------------
+# Generated Ignored Files
+# ------------------------------------------------------------------------------
+
 # Logs
 logs
 *.log
@@ -45,32 +59,9 @@ typings/
 # Optional eslint cache
 .eslintcache
 
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
 # dotenv environment variables file
 .env
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# next.js build output
-.next
-
-# nuxt.js build output
-.nuxt
-
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless
-
-# FuseBox cache
-.fusebox/

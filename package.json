@@ -3,10 +3,14 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
+    "network": "vite --host",
     "build": "vite build",
     "serve": "vite preview"
   },
   "devDependencies": {
+    "autoprefixer": "^10.3.4",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.9",
     "vite": "^2.5.2"
   }
 }
