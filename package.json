@@ -1,6 +1,6 @@
 {
   "name": "mag2-web",
-  "version": "0.0.0",
+  "version": "1.0",
   "scripts": {
     "dev": "vite",
     "network": "vite --host",
@@ -8,9 +8,9 @@
     "serve": "vite preview"
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.4",
-    "postcss": "^8.3.6",
+    "vite": "^2.5.2",
     "tailwindcss": "^2.2.9",
-    "vite": "^2.5.2"
+    "postcss": "^8.3.6",
+    "autoprefixer": "^10.3.4"
   }
 }
