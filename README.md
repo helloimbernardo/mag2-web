@@ -9,6 +9,6 @@ This is a simple landing page for the Mag 2 Minecraft server.
 - [PostCSS](https://postcss.org/)
     - [Autoprefixer](https://github.com/postcss/autoprefixer#readme)
 ### Published with
-- [CLoudflare Pages](https://pages.cloudflare.com/)
+- [Vercel](https://vercel.com/)
 - (Domain managed with) [Couldflare DNS](https://www.cloudflare.com/dns/)
 - (Domain registered with) [Freenom](https://www.freenom.com/)
