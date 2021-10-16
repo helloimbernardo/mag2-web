@@ -1,6 +1,12 @@
 {
   "name": "mag2-web",
   "version": "1.0.0",
+  "repository": "https://github.com/helloimbernardo/mag2-web.git",
+  "author": {
+    "name": "helloimbernardo"
+  },
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/helloimbernardo/mag2-web",
   "scripts": {
     "dev": "vite",
     "network": "vite --host",
